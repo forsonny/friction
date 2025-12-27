@@ -1,0 +1,9 @@
+{
+  "name": "friction",
+  "version": "1.0.0",
+  "description": "Song lyrics that sound said, not written. Anti-AI songwriting system with cliche detection, forced creativity rules, and Suno-compatible output.",
+  "author": {
+    "name": "Sonny"
+  },
+  "keywords": ["songwriting", "lyrics", "music", "suno", "udio", "creative-writing"]
+}
