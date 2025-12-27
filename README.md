@@ -24,12 +24,23 @@ Friction enforces quality at every phase:
 
 ## Installation
 
-```bash
-# Test locally
-claude --plugin-dir /path/to/friction
+### From GitHub (recommended)
 
-# Or copy to your project
-cp -r friction your-project/.claude-plugin/friction
+```bash
+# Clone and use directly
+git clone https://github.com/forsonny/friction.git
+claude --plugin-dir ./friction
+
+# Or add to your project
+git clone https://github.com/forsonny/friction.git .claude-plugin/friction
+```
+
+### From Marketplace
+
+Add this marketplace URL to your Claude Code settings:
+
+```
+https://raw.githubusercontent.com/forsonny/friction/master/marketplace.json
 ```
 
 ## Commands
