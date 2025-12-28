@@ -24,7 +24,16 @@ Friction enforces quality at every phase:
 
 ## Installation
 
-### From GitHub (recommended)
+### From Marketplace (recommended)
+
+In Claude Code, run:
+
+```
+/plugin marketplace add forsonny/friction
+/plugin install friction@forsonny-plugins
+```
+
+### From GitHub (manual)
 
 ```bash
 # Clone and use directly
@@ -33,14 +42,6 @@ claude --plugin-dir ./friction
 
 # Or add to your project
 git clone https://github.com/forsonny/friction.git .claude-plugin/friction
-```
-
-### From Marketplace
-
-Add this marketplace URL to your Claude Code settings:
-
-```
-https://raw.githubusercontent.com/forsonny/friction/master/marketplace.json
 ```
 
 ## Commands
@@ -129,7 +130,8 @@ Output includes formatted style guide ready for copy-paste into AI music generat
 ```
 friction/
 ├── .claude-plugin/
-│   └── plugin.json
+│   ├── plugin.json
+│   └── marketplace.json
 ├── commands/
 │   ├── write-song.md
 │   ├── check-lyrics.md
