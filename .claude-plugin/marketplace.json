@@ -1,14 +1,18 @@
 {
   "name": "forsonny-plugins",
-  "description": "Claude Code plugins by Sonny",
+  "owner": {
+    "name": "Sonny"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Sonny",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "friction",
+      "source": ".",
       "description": "Song lyrics that sound said, not written. Anti-AI songwriting system with cliche detection, forced creativity rules, and Suno-compatible output.",
-      "version": "1.0.0",
-      "author": "Sonny",
-      "git": "https://github.com/forsonny/friction.git",
-      "keywords": ["songwriting", "lyrics", "music", "suno", "udio", "creative-writing"]
+      "version": "1.0.0"
     }
   ]
 }
