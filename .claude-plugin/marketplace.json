@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "friction",
-      "source": ".",
+      "source": "./",
       "description": "Song lyrics that sound said, not written. Anti-AI songwriting system with cliche detection, forced creativity rules, and Suno-compatible output.",
       "version": "1.0.0"
     }
